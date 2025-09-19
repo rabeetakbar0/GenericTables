@@ -38,7 +38,7 @@ const index = () => {
         <Text style={[styles.cell, styles.headerText]}>Name</Text>
         <Text style={[styles.cell, styles.headerText]}>Role</Text>
         <Text style={[styles.cell, styles.headerText]}>Age</Text>
-              <Text style={[styles.cell, styles.headerText]}>ServiceLeft</Text>
+              {/* <Text style={[styles.cell, styles.headerText]}>ServiceLeft</Text> */}
 
       </View>
 
@@ -47,7 +47,7 @@ const index = () => {
   <Text style={styles.cell}>{item.name}</Text>
     <Text style={styles.cell}>{item.role}</Text>
   <Text style={styles.cell}>{item.age}</Text>
-  <Text style={styles.cell}>{item.serviceLeft}</Text>
+  {/* <Text style={styles.cell}>{item.serviceLeft}</Text> */}
 
 </View>
 
